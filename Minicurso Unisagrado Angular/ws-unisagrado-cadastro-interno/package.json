@@ -1,0 +1,22 @@
+{
+  "name": "ws-unisagrado-docentes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "auth0": "^4.21.0",
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-jwt": "^8.5.1",
+    "jwks-rsa": "^3.2.0",
+    "pg": "^8.14.1"
+  }
+}
